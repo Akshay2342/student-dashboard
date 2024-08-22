@@ -53,12 +53,12 @@ function NavigationBar() {
         </div>
       </div> */}
 
-      <div className="dropdown" id="anotherFunction">
+      {/* <div className="dropdown" id="anotherFunction">
         <div className="drop1">HTML</div>
         <div className="drop2">CSS</div>
         <div className="drop3">Javascript</div>
         <div className="drop4">Sass</div>
-      </div>
+      </div> */}
     </div>
   );
 }

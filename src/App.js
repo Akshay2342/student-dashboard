@@ -6,8 +6,20 @@ import NavigationBar from './NavigationBar';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <NavigationBar/>
+      <div className="nav-container">
+        <NavBar />
+      </div>
+      <div className="navigation-container">
+        <NavigationBar />
+      </div>
+      <div className="content">
+        {/* Place the rest of your content here */}
+        Random Content Hereee
+      </div>
+      <div className="Modules">
+        {/* Place the rest of your content here */}
+        Random Content Hereee
+      </div>
     </div>
   );
 }

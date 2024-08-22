@@ -82,12 +82,12 @@ li a {
   opacity: 0.9;
 }
 
-.navigation {
+/* .navigation {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-}
+} */
 
 .fa-search:hover {
   color: #fff;
@@ -145,7 +145,7 @@ li a {
   width: 5px;
   height: 200px;
   background: tomato;
-  position: absolute;
+  /* position: absolute; */
   transform: translate(-50%, -50%);
   top: 50%;
   left: 70%;
@@ -189,7 +189,7 @@ li a {
   height: 30px;
   border-radius: 50%;
   background: #ff5959;
-  position: absolute;
+  /* position: absolute */
   transform: translate(-50%, -50%);
   top: 15%;
   left: 10%;
@@ -250,7 +250,7 @@ nav {
   }
   
   .navigation {
-    position: absolute;
+    /* position: absolute; */
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;

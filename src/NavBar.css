@@ -67,12 +67,12 @@
   }
   
   #nav-bar {
-    position: absolute;
+    /* position: absolute; */
     left: 1vw;
     top: 1vw;
-    height: calc(100% - 2vw);
+    height: calc(100%);
     background: var(--navbar-dark-primary);
-    border-radius: 16px;
+    border-radius: 0px;
     display: flex;
     flex-direction: column;
     color: var(--navbar-light-primary);

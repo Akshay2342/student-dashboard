@@ -1,0 +1,40 @@
+/* App.css */
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.nav-container {
+  width: 290px; /* Adjust the width of the sidebar */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  /* background-color: #333; Example background color */
+  z-index: 1000;
+}
+
+.navigation-container {
+  flex-grow: 1;
+  margin-left: 62px; /* Same as the width of the sidebar */
+  position: fixed;
+  top: 0;
+  left: 200px; /* Adjust this to match the sidebar width */
+  width: calc(100% - 200px); /* Adjust this to match the sidebar width */
+  /* background-color: #555; Example background color */
+  z-index: 999;
+}
+
+.content {
+  margin-top: 76px; /* Adjust this to match the height of the top navigation bar */
+  padding: 20px;
+  margin-left: 300px;
+  border: 3px solid grey;
+  width: 700px;
+}
+.Modules {
+  margin-top: 76px; /* Adjust this to match the height of the top navigation bar */
+  padding: 10px;
+  border: 3px solid grey;
+  width: 350px;
+}
