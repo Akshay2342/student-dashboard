@@ -1,0 +1,88 @@
+/* App.css */
+.app-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notification-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .notification-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .notification-count {
+    background-color: #ff3d3d;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 7px;
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+  }
+  
+  .notification-panel {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 300px;
+    max-width: 100%;
+    height: calc(100% - 50px);
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .notification-panel.open {
+    transform: translateX(0);
+  }
+  
+  .panel-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .panel-header h2 {
+    margin: 0;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .panel-content {
+    padding: 10px;
+    overflow-y: auto;
+  }

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './Navbar';
 import NavigationBar from './NavigationBar';
+import Notification from './Notification';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       </div>
       <div className="Modules">
         {/* Place the rest of your content here */}
-        Random Content Hereee
+        <Notification/>
+        Modules content
       </div>
     </div>
   );
