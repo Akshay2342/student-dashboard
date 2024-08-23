@@ -78,15 +78,15 @@ function NavigationBar() {
           <div className="navigation">
             <nav>
               <ul className="nav-type">
-                {/* <li><a href="https://codepen.io/EneergeticTomy/" target="_blank" rel="noopener noreferrer" className="active">Home</a></li>
-                <li><a href="https://codepen.io/TomikaBoy/full/LqMpaE" target="_blank" rel="noopener noreferrer" className="active1">About</a></li>
+                <li><a href="" target="_blank" rel="noopener noreferrer" className="active">DashBoard</a></li>
+                {/* <li><a href="https://codepen.io/TomikaBoy/full/LqMpaE" target="_blank" rel="noopener noreferrer" className="active1">About</a></li>
                 <li><a href="https://codepen.io/" target="_blank" rel="noopener noreferrer" className="active2">Contact</a></li>
                 <li><a href="https://w3schools.com/" target="_blank" rel="noopener noreferrer" className="active3">Support</a></li> */}
                 <div className="line"></div>
+                {/* <h3>Dashboard</h3> */}
                 <Notification/>
                 <li><a><i className="fa fa-bullhorn" onClick={() => console.log('Announcements clicked!')}></i></a></li>
                 <li><a><i className="fa fa-user" onClick={() => console.log('User clicked!')}></i></a></li>
-                <li><a><i className="fa fa-search" onClick={() => console.log('Search clicked!')}></i></a></li>
               </ul>
             </nav>
           </div>

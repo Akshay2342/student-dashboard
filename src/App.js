@@ -29,7 +29,6 @@ function App() {
         <NavigationBar />
       </div>
       <div className="content">
-
         selected Content Hereee
       </div>
       <div className="Modules">

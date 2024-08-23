@@ -198,7 +198,7 @@ const NavBar = () => {
         <div id="nav-footer-heading">
           <div id="nav-footer-avatar">
             <img
-              src="https://gravatar.com/avatar/4474ca42d303761c2901fa819c4f2547"
+              src=""
               alt="Avatar"
             />
           </div>
@@ -208,7 +208,7 @@ const NavBar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              uahnbu
+              Akshay 
             </a>
             <span id="nav-footer-subtitle">admin</span>
           </div>
