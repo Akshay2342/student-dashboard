@@ -57,6 +57,7 @@ ul {
 
 .active {
   transition: 1s;
+  margin-right: 750px;
 }
 
 .active1{
@@ -72,6 +73,7 @@ ul {
 }
 
 li a {
+  
   color: #fff;
   text-decoration: none;
   padding: 45px 45px;

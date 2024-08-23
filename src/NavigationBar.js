@@ -66,11 +66,16 @@
 // export default NavigationBar;
 
 
-import React from 'react';
+import React, { useState } from 'react';
 import './NavigationBar.css';  // Assuming you've placed the CSS code in this file
 import Notification from './Notification';
+import HoverCard from './HoverCard'; // Import the HoverCard component
+
+
 
 function NavigationBar() {
+  const [showHoverCard, setShowHoverCard] = useState(false);
+
   return (
     <div className="html-container">
       <div className="html-section">
@@ -86,13 +91,17 @@ function NavigationBar() {
                 {/* <h3>Dashboard</h3> */}
                 <Notification/>
                 <li><a><i className="fa fa-bullhorn" onClick={() => console.log('Announcements clicked!')}></i></a></li>
-                <li><a><i className="fa fa-user" onClick={() => console.log('User clicked!')}></i></a></li>
-              </ul>
+                <li>
+                  <a><i className="fa fa-user" onClick={() => setShowHoverCard(!showHoverCard)}></i></a>
+                  {showHoverCard && <HoverCard />} {/* Show the hover card when clicked */}
+                </li>              </ul>
             </nav>
           </div>
         </div>
       </div>
-
+      {/* from here */}
+      
+{/* #till here */}
       <noscript>
         <div className="first-line">
           <div className="linear">
