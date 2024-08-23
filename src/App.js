@@ -13,6 +13,8 @@ import CvImg from './assets/cv.png'
 import HostelImg from './assets/hostel.png'
 import EduImg from './assets/education.png'
 import HiringImg from './assets/hiring.png'
+import HoverCard from './HoverCard'; // Import the HoverCard component
+
 
 function App() {
   const socialLinks = [
