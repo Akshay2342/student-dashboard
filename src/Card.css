@@ -1,0 +1,34 @@
+.card-container {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  align-items: center; /* Center align cards horizontally */
+  gap: 10px; /* Space between cards */
+  padding: 20px; /* Optional: Add padding around the container */
+}
+
+/* Card styling */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  max-width: 120px; /* Optional: Set a max-width if needed */
+  /* height: auto; */
+  height: 140px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; /* Stack image and content vertically */
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Remove padding for better layout control */
+}
+
+.card img {
+  width: 60%; /* Ensure image fits within the card */
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-content {
+  padding: 16px;
+  text-align: center;
+}

@@ -1,0 +1,87 @@
+/* ProfileCard.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .profile-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .profile-header {
+    background: #4a90e2;
+    padding: 20px;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+  }
+  
+  .profile-body {
+    padding: 20px;
+  }
+  
+  .profile-name {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .profile-title {
+    color: #7f8c8d;
+    margin: 10px 0;
+  }
+  
+  .profile-bio {
+    font-size: 0.875rem;
+    color: #2c3e50;
+  }
+  
+  .profile-email {
+    display: block;
+    color: #3498db;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .profile-email:hover {
+    text-decoration: underline;
+  }
+  
+  .profile-footer {
+    background: #f7f7f7;
+    padding: 10px;
+  }
+  
+  .profile-socials {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+  }
+  
+  .social-icon img {
+    width: 24px;
+    height: 24px;
+  }
+  

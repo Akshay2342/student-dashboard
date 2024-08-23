@@ -27,10 +27,10 @@ ul {
   display: flex;
   padding: 18px 0;
   background-size: 400% 400%;
-  background-image: linear-gradient(-45deg, #ff5959, #ff4040, #ff0d6e, #ff8033,#d74177);
+  background: hsl(213, 42%, 16%);
   animation: 12s myGradient infinite;
   border-radius: 40px;
-  box-shadow: 3px 3px 20px #ff3352;
+  box-shadow: 3px 3px 20px #8d8687;
   border-top-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
@@ -144,16 +144,16 @@ li a {
 .line-w5 {
   width: 5px;
   height: 200px;
-  background: tomato;
+  background: rgb(33, 31, 31);
   /* position: absolute; */
   transform: translate(-50%, -50%);
   top: 50%;
   left: 70%;
   border-radius: 30px;
-  background-image: linear-gradient(-45deg, #ff408c, #ff4040, #6666ff);
+  background-image: linear-gradient(-45deg, #4f4c4e, #898686, #7a7a7c);
   background-size: 400% 400%;
   animation: 13s myBackground infinite;
-  box-shadow: 2px 2px 10px #ff2e38;
+  box-shadow: 2px 2px 10px #525151;
   transition: 3s;
 }
 
@@ -188,12 +188,12 @@ li a {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #ff5959;
+  background: #575151;
   /* position: absolute */
   transform: translate(-50%, -50%);
   top: 15%;
   left: 10%;
-  box-shadow: 2px 2px 20px #d4267d;
+  box-shadow: 2px 2px 20px #938f91;
   animation: 1.6s myFlash linear infinite;
 }
 
@@ -278,13 +278,13 @@ nav {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: tomato;
+    background: rgb(82, 78, 77);
     position: absolute;
     transform: translate(-50%, -50%);
     top: 70%;
     left: 50%;
-    box-shadow: 2px 2px 20px #ff3352;
-    background-image: linear-gradient(to top, #ff2657, #ff3333, #ff5900);
+    box-shadow: 2px 2px 20px #565656;
+    background-image: linear-gradient(to top, #202020, #474141, #626161);
   }
 }
 
@@ -292,7 +292,7 @@ nav {
   display: block;
   color: #fff;
   text-decoration: none;
-  background: tomato;
+  background: rgb(71, 68, 68);
   width: 100px;
   text-align: center;
   font-family: verdana;
@@ -314,12 +314,12 @@ nav {
 }
 
 .chinese-text {
-  color: #ed4278;
-  text-shadow: 2px 2px 18px #ff3678;
+  color: #7e7b7c;
+  text-shadow: 2px 2px 18px #484647;
 }
 
 .chinese-text2 {
-  color: #ff3345;
+  color: #797979;
   text-shadow: 2px 2px 18px #d10045;
 }
 

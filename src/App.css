@@ -29,12 +29,67 @@
   margin-top: 76px; /* Adjust this to match the height of the top navigation bar */
   padding: 20px;
   margin-left: 300px;
-  border: 3px solid grey;
-  width: 700px;
+  border-right: 3px solid grey;
+  width: 650px;
+  height: auto;
 }
 .Modules {
   margin-top: 76px; /* Adjust this to match the height of the top navigation bar */
   padding: 10px;
-  border: 3px solid grey;
-  width: 350px;
+  border-left: 3px solid grey;
+  width: 400px;
+}
+
+
+/* Style the anchor tags to make them stand out */
+#myDropdownn a {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Set text color */
+  font-weight: bold; /* Make the text bold */
+  display: inline-block; /* Make sure it wraps around the card */
+  padding: 10px;
+}
+
+/* Add a box shadow to each card on hover */
+#myDropdownn a:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Optional: Add padding around the card content for better spacing */
+#myDropdownn .card {
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for vertical scrolling */
+  gap: 6px; /* Space between items */
+  overflow: auto; /* Enable both horizontal and vertical scrolling */
+  padding: 10px; /* Optional: Add some padding */
+  max-height: 100vh; /* Limit the height to allow vertical scrolling */
+}
+
+.flex-item {
+  flex: 1 1 calc(50% - 6px); /* Two items side by side */
+  box-sizing: border-box;
+  background-color: hsl(213, 42%, 16%);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.flex-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid hsl(213, 42%, 16%);
+}
+
+.flex-item:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 767px) {
+  .flex-item {
+    flex: 1 1 100%; /* Stack items on smaller screens */
+  }
 }
